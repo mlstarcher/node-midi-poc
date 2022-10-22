@@ -1,0 +1,23 @@
+{
+  "name": "midi-poc",
+  "version": "1.0.0",
+  "description": "Experimenting with receiving midi notes in node from usb midi device",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlstarcher/node-midi-poc.git"
+  },
+  "author": "Matthew Starcher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlstarcher/node-midi-poc/issues"
+  },
+  "homepage": "https://github.com/mlstarcher/node-midi-poc#readme",
+  "dependencies": {
+    "easymidi": "^2.1.1"
+  }
+}
